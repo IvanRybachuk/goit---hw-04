@@ -1,0 +1,353 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.hero {
+    max-width: 1600px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../images/header/header-min.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+
+
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.hero-title {
+    width: 690px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-top: 0;
+}
+
+.btn-main {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--accept-color);
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    color: var(--primary-text-color);
+}
+
+.team-profession {
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.box {
+    padding: 0px 15px;
+    max-width: 726px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-item {
+    display: flex;
+    justify-self: start;
+}
+
+.site-nav {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.menu-item {
+    margin-right: 50px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+
+.adrress {
+    display: flex;
+}
+
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.item-icon {
+    width: 270px;
+    margin-right: 30px;
+}
+
+.item-icon:last-child {
+    margin-right: 0;
+}
+
+.stylization {
+    background-color: var(--back-color);
+}
+
+.title-fon {
+    padding-bottom: 30px;
+    text-align: center;
+    background: var(--white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.caption-text {
+    margin: 30px 60px 10px
+}
+
+.advantages-doing {
+    padding-bottom: 94px;
+}
+
+.adrress {
+    margin: 0;
+}
+.number-icon,
+.adress-icon {
+    width: 16px;
+    height: 12px;
+    background-size: contain;
+}
+
+.menu-item:hover {
+    fill: #2196F3;
+}
+
+.adress-icon,
+.number-icon {
+    margin-right: 10px;
+}
+
+
+.advantages-title::before {
+    display: block;
+    content: "";
+    height: 120px;
+    width: 270px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.icon-delivery::before {
+    background-image: url("../images/feture/vector.svg");
+    background-size: 65px 70px;
+}
+
+.icon-delivery2::before {
+    background-image: url("../images/feture/clock.svg");
+    background-size: 67px 70px;
+}
+
+.icon-delivery3::before {
+    background-image: url("../images/feture/diagram.svg");
+    background-size: 70px;
+}
+
+.icon-delivery4::before {
+    background-image: url("../images/feture/astronaut.svg");
+    background-size: 70px;
+}
+
+.social-icon-list {
+    margin: 0 32px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-list-item {
+    display: flex;
+    content: "";
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list-svg {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.social-list-item {
+    color: #AFB1B8;
+}
+
+.social-list-item:hover {
+    color: #F5F4FA;
+    background-color: #2196F3;
+}
+
+.social-list-svg {
+    fill: currentColor;
+}
+
+.footer-list-svg {
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.footer-container {
+    display: flex;
+
+}
+
+.call-to-activity {
+    display: block;
+}
+
+.footer-item {
+    margin-right: 70px;
+}
+
+.footer-li-svg:not(:last-child) {
+    margin-right: 10px;
+}
+
+.foote-li-svg {
+    fill: currentColor;
+}
+
+.footer-link-svg {
+    color: #F5F4FA;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* .customers-icon {
+    width: 60%;
+    height: 60%;
+    fill: #AFB1B8;
+}
+
+.customers-icon:hover {
+    fill: #2196F3;
+}
+
+.advantages-link-border:hover {
+    color: #2196F3;
+}
+
+.advantages-link-border {
+    display: flex;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-item-member {
+    width: calc((100% - 5*30px)/6);
+} */
+
+.advantages-link-border {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    margin-right: 30px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.advantages-link-border:hover {
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.customers-icon1 {
+    widh: 44px;
+    height: 49px;
+}
+
+.customers-icon2 {
+    widh: 40px;
+    height: 52px;
+}
+
+.customers-icon3 {
+    widh: 41px;
+    height: 42px;
+}
+
+.customers-icon4 {
+    widh: 79px;
+    height: 42px;
+}
+
+.customers-icon5 {
+    widh: 59px;
+    height: 47px;
+}
+
+.customers-icon6 {
+    widh: 88px;
+    height: 45px;
+}
